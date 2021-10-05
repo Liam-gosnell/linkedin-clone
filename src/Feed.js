@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from "react";
 import "./Feed.css";
 import InputOption from './InputOption';
 import CreateIcon from "@material-ui/icons/Create";
@@ -28,6 +28,7 @@ function Feed() {
     const sendPost = e => {
         e.preventDefault();
 
+        
     };
 
 
@@ -49,9 +50,9 @@ function Feed() {
         </div>
 
         {/* Posts */}
-        {posts.map((post) => (
+        {/* {posts.map((post) => (
             <Post />
-        ))}
+        ))} */}
         <Post name='Liam Gosnell' description='This is a test' message='WOW this worked' />
     </div>;
 }
