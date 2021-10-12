@@ -6,3 +6,10 @@
     padding-top: 100px;
     padding-bottom: 100px;
 }
+
+.login > img {
+    object-fit: contain;
+    height: 250px;
+    margin-top: 20px;
+    margin-bottom: 20px; 
+}

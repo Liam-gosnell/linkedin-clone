@@ -10,8 +10,16 @@ function Login() {
             />
 
             <form>
-                <input placeholder="Full Name ( required if registering )" type=""/>
+                <input placeholder="Full Name ( required if registering )" type="text"/>
+
+                <input placeholder="Profile pic URL (optional)" type="text"/>
+
+                <input placeholder="Email" type="text"/>
+
+                <input placeholder="Password" type="password"/>
+
             </form>
+
         </div>
     )
 }
