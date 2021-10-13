@@ -1,9 +1,16 @@
 import React from 'react';
 import './Login.css';
+import { auth } from "./firebase";
 
 function Login() {
-    const loginToApp = () => {};
-    const register = () => {};
+    const loginToApp = (e) => {
+        e.preventDefault();
+
+
+    };
+    const register = () => {
+
+    };
 
     return (
         <div className="login">
