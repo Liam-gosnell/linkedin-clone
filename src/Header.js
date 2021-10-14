@@ -40,7 +40,8 @@ function Header() {
                 <HeaderOption Icon={BusinessCenterIcon} title='Jobs'/>
                 <HeaderOption Icon={ChatIcon} title='Messaging'/>
                 <HeaderOption Icon={NotificationsIcon} title='Notifications'/>
-                <HeaderOption avatar="https://assets.website-files.com/5f2bd7b4c1df8f22e05f8c5f/5f33be338fa5cb2e2e792483_P1030380.jpg" 
+                <HeaderOption
+                avatar={true}
                 title="me" 
                 onClick={logoutOfApp} 
                 />
